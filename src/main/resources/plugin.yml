@@ -1,0 +1,39 @@
+name: AnarchyCore
+version: ${project.version}
+main: com.danimania.anarchycore.AnarchyCore
+authors: [danimania]
+description: Core plugin for anarchy servers written by danimania
+commands:
+  help:
+    description: Helps you! :)
+    usage: /help
+  bed:
+    description: Locates your current bed
+    usage: /bed
+  discord:
+    description: Displays Discord server
+    usage: /discord
+  stats:
+    description: Shows statistics about the server
+    usage: /stats
+  joindate:
+    description: Shows joindate
+    usage: /joindate
+  ping:
+    description: Shows your ping
+    usage: /ping
+  toggledeathmsgs:
+    description: Toggles death msgs
+    usage: /toggledeathmsgs
+  togglejoinmsgs:
+    description: Toggles join msgs
+    usage: /togglejoinmsgs
+  corereload:
+    description: Reloads the plugin
+    usage: /corereload
+  kill:
+    description: Kills you
+    usage: /kill
+  nc:
+    description: Changes your name
+    usage: /nc <color>
