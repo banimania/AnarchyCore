@@ -1,53 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/DaniMod" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../.." value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../DEHack" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../DaniCoordsClient" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../DaniMod" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../DarkEmpHack" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../DarkEmpireClient/client" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../DarkEmpireHack" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Discord2MC-master" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../ExploitClient" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Gamesense" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../HephaestusClient-master" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../KamiDani/client" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../KamiModi/client" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Kamiblue" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Osiris" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Osiris-master" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Phobos-1.7.2" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../PopCorn" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Potentia-Public-master" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Purus-1.16.1" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../SlyHack" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../client" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../daniclient" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../danimania" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../danimania.cc" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../danimania.cc/danimania.cc" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../danimaniacc/danimania.cc" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../danimaniaclient" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../dotgod.cc-master" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../fabrimania.cc" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../haltmania" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../nmod" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../seppuku" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../tango-legacy" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../tlogger/Gaysense" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../wd/1.16.2" value="PREVIEW" />
-      </map>
+  <component name="ChangeListManager">
+    <list default="true" id="7887bfff-807b-4b7d-a90e-96429ddb3536" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/danimania/anarchycore/AnarchyCore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/config.yml" />
+      </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AnarchyCatCore" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="491" />
     <option name="y" value="4" />
     <option name="width" value="974" />
     <option name="height" value="920" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AnarchyCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnarchyCore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnarchyCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnarchyCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnarchyCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnarchyCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnarchyCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnarchyCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnarchyCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnarchyCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="anarchycore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnarchyCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnarchyCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="anarchycore" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnarchyCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnarchyCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="anarchycore" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnarchyCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnarchyCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="anarchycore" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnarchyCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnarchyCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615914857874" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7887bfff-807b-4b7d-a90e-96429ddb3536" name="Default Changelist" comment="" />
+      <created>1615914425792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615914425792</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="IntelliGuard" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/danimania/anarchycore/AnarchyCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
