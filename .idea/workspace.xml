@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/DaniMod" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../.." value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../DEHack" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../DaniCoordsClient" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../DaniMod" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../DarkEmpHack" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../DarkEmpireClient/client" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../DarkEmpireHack" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Discord2MC-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../ExploitClient" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Gamesense" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../HephaestusClient-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../KamiDani/client" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../KamiModi/client" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Kamiblue" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Osiris" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Osiris-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Phobos-1.7.2" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../PopCorn" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Potentia-Public-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Purus-1.16.1" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../SlyHack" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../client" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../daniclient" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../danimania" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../danimania.cc" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../danimania.cc/danimania.cc" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../danimaniacc/danimania.cc" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../danimaniaclient" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../dotgod.cc-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../fabrimania.cc" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../haltmania" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../nmod" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../seppuku" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../tango-legacy" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../tlogger/Gaysense" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../wd/1.16.2" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="491" />
+    <option name="y" value="4" />
+    <option name="width" value="974" />
+    <option name="height" value="920" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
