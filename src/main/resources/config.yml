@@ -230,3 +230,7 @@ antiblockplaces:
     endportalframes: true
     barriers: true
     spawners: false
+
+#If enabled, 32k won't dealt damage
+32kpatch:
+  enabled: true

@@ -13,6 +13,7 @@ com\danimania\anarchycore\events\RespawnEvent.class
 com\danimania\anarchycore\commands\CoreReloadCommand.class
 com\danimania\anarchycore\commands\KillCommand.class
 com\danimania\anarchycore\events\MotdEvent.class
+com\danimania\anarchycore\events\PlayerDealDamageEvent.class
 com\danimania\anarchycore\utils\IllegalUtils.class
 com\danimania\anarchycore\commands\ToggleJoinMessages.class
 com\danimania\anarchycore\events\MoveEvents.class
