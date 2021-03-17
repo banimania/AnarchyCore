@@ -19,7 +19,8 @@ A lightweight, handy, fully-configurable Paper plugin that serves as core-plugin
 * You can patch nether roof and nether bottom!
 * You're able to disable every feature on the plugin, including commands!
 * Includes a respawn system so players that don't have a bed will not spawn in the same place.
-* Active support in the Discord server.
+* Active support in the Discord server
+* You can customize the join and leave messages.
 <!-- COMMANDS -->
 #### Commands:
 * /help - Helps you.
