@@ -16,11 +16,15 @@ A lightweight, handy, fully-configurable Paper plugin that serves as core-plugin
 * Very customizable.
 * Easy to configure.
 * Includes anti-dispenser crash!
+* You can enable SalC1 dupe and piston dupe from the config!
+* You can set random MOTDS from configuration.
 * You can patch nether roof and nether bottom!
 * You're able to disable every feature on the plugin, including commands!
 * Includes a respawn system so players that don't have a bed will not spawn in the same place.
 * Active support in the Discord server
 * You can customize the join and leave messages.
+* The plugin has a 32k patch, if enabled, people will not be able to deal damage with 32k's.
+* [SOON] His own anti-illegal
 <!-- COMMANDS -->
 #### Commands:
 * /help - Helps you.
@@ -28,6 +32,7 @@ A lightweight, handy, fully-configurable Paper plugin that serves as core-plugin
 * /bed - Locates your current bed.
 * /joindate - Shows joindate.
 * /ping - Shows players ping.
+* /discord - Shows your Discord Link
 * /toggledeathmsgs - Toggles death msgs.
 * /togglejoinmsgs - Toggles join msgs.
 * /nc - Changes your color nickname in chat
