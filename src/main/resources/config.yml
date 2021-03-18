@@ -124,6 +124,8 @@ death-messages:
 #Random spawn configuration if the player doesn't have a bed
 random-spawn:
   enabled: true
+  #World to respawn in
+  world-name: "world"
   #Sets of coordinates to setup random spawn
   minX: -500
   minZ: -500

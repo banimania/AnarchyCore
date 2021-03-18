@@ -1,5 +1,5 @@
 name: AnarchyCore
-version: 1.0-SNAPSHOT
+version: 1.0.1-SNAPSHOT
 main: com.danimania.anarchycore.AnarchyCore
 authors: [danimania]
 description: Core plugin for anarchy servers written by danimania
@@ -37,3 +37,6 @@ commands:
   nc:
     description: Changes your name
     usage: /nc <color>
+  ignore:
+    description: Ignores people like Z4STY
+    usage: /ignore <name>

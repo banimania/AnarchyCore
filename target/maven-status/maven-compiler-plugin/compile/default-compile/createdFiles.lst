@@ -16,9 +16,11 @@ com\danimania\anarchycore\events\MotdEvent.class
 com\danimania\anarchycore\events\PlayerDealDamageEvent.class
 com\danimania\anarchycore\utils\IllegalUtils.class
 com\danimania\anarchycore\commands\ToggleJoinMessages.class
+com\danimania\anarchycore\commands\IgnoreCommand.class
 com\danimania\anarchycore\events\MoveEvents.class
 com\danimania\anarchycore\commands\NameColorCommand.class
 com\danimania\anarchycore\commands\ToggleDeathMsgsCommand.class
+com\danimania\anarchycore\events\IgnoreChatEvent.class
 com\danimania\anarchycore\events\LeaveEvent.class
 com\danimania\anarchycore\events\DispenserEvent.class
 com\danimania\anarchycore\commands\PingCommand.class

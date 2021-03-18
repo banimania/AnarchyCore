@@ -29,6 +29,7 @@ public final class AnarchyCore extends JavaPlugin {
         Bukkit.getServer().getPluginManager().registerEvents(new DeathEvent(), this);
         Bukkit.getServer().getPluginManager().registerEvents(new MotdEvent(), this);
         Bukkit.getServer().getPluginManager().registerEvents(new PlayerDealDamageEvent(), this);
+        Bukkit.getServer().getPluginManager().registerEvents(new IgnoreChatEvent(), this);
     }
 
     public void registerCommands(){
@@ -64,6 +65,9 @@ public final class AnarchyCore extends JavaPlugin {
         }
         if(Utils.getConfig().getBoolean("enabled-commands.nc")){
             this.getCommand("nc").setExecutor(new NameColorCommand());
+        }
+        if(Utils.getConfig().getBoolean("enabled-commands.ignore")){
+            this.getCommand("ignore").setExecutor(new IgnoreCommand());
         }
     }
 

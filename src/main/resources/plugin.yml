@@ -37,3 +37,6 @@ commands:
   nc:
     description: Changes your name
     usage: /nc <color>
+  ignore:
+    description: Ignores people like Z4STY
+    usage: /ignore <name>
