@@ -1,6 +1,7 @@
 package com.danimania.anarchycore.utils;
 
 import com.danimania.anarchycore.AnarchyCore;
+import me.clip.placeholderapi.PlaceholderAPI;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.OfflinePlayer;
@@ -14,11 +15,23 @@ import java.util.Date;
 public class Utils {
     public static void sendMessage(Player p, String message){
         String prefix = getConfig().getString("global.prefix");
-        p.sendMessage(ChatColor.translateAlternateColorCodes('&', prefix+message));
+        if(AnarchyCore.usingPAPI){
+            String messagewoutpapi = ChatColor.translateAlternateColorCodes('&', prefix+message);
+            String finalmessage = PlaceholderAPI.setPlaceholders(p, messagewoutpapi);
+            p.sendMessage(finalmessage);
+        }else{
+            p.sendMessage(ChatColor.translateAlternateColorCodes('&', prefix+message));
+        }
     }
 
     public static void sendRawMessage(Player p, String message){
-        p.sendMessage(ChatColor.translateAlternateColorCodes('&', message));
+        if(AnarchyCore.usingPAPI){
+            String messagewoutpapi = ChatColor.translateAlternateColorCodes('&', message);
+            String finalmessage = PlaceholderAPI.setPlaceholders(p, messagewoutpapi);
+            p.sendMessage(finalmessage);
+        }else{
+            p.sendMessage(ChatColor.translateAlternateColorCodes('&', message));
+        }
     }
 
     public static FileConfiguration getConfig() {

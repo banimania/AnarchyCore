@@ -8,7 +8,17 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class AnarchyCore extends JavaPlugin {
 
+    public static boolean usingPAPI = false;
     public void onEnable() {
+        //PlaceholderAPI
+        if(Bukkit.getPluginManager().isPluginEnabled("PlaceholderAPI")){
+            usingPAPI = true;
+        }
+
+        //bStats
+        int pluginId = 10837;
+        Metrics metrics = new Metrics(this, pluginId);
+
         saveDefaultConfig();
         registerCommands();
         registerEvents();
@@ -29,7 +39,7 @@ public final class AnarchyCore extends JavaPlugin {
         Bukkit.getServer().getPluginManager().registerEvents(new DeathEvent(), this);
         Bukkit.getServer().getPluginManager().registerEvents(new MotdEvent(), this);
         Bukkit.getServer().getPluginManager().registerEvents(new PlayerDealDamageEvent(), this);
-        Bukkit.getServer().getPluginManager().registerEvents(new IgnoreChatEvent(), this);
+        //Bukkit.getServer().getPluginManager().registerEvents(new IgnoreChatEvent(), this);
     }
 
     public void registerCommands(){

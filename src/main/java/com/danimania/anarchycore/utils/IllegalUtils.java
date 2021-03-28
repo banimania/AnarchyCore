@@ -25,15 +25,6 @@ public class IllegalUtils {
         }
 
         switch(item.getType()){
-            case COMMAND_REPEATING:
-                item.setAmount(0);
-                break;
-            case COMMAND_MINECART:
-                item.setAmount(0);
-                break;
-            case COMMAND_CHAIN:
-                item.setAmount(0);
-                break;
             case COMMAND:
                 item.setAmount(0);
                 break;
