@@ -14,9 +14,11 @@ public class DeathEvent implements Listener {
 
     @EventHandler
     public void onDeath(PlayerDeathEvent e){
-        deathmessage = e.getDeathMessage();
-        e.setDeathMessage("");
-        sendDeathMessage();
+        if(Utils.getConfig().getBoolean("death-messages.enabled")){
+            deathmessage = e.getDeathMessage();
+            e.setDeathMessage("");
+            sendDeathMessage();
+        }
     }
 
     public void sendDeathMessage(){
