@@ -36,6 +36,7 @@ public final class AnarchyCore extends JavaPlugin {
         Bukkit.getServer().getPluginManager().registerEvents(new PistonEvent(), this);
         Bukkit.getServer().getPluginManager().registerEvents(new ChatEvent(), this);
         Bukkit.getServer().getPluginManager().registerEvents(new RespawnEvent(), this);
+        Bukkit.getServer().getPluginManager().registerEvents(new OpenInventoryEvent(), this);
         Bukkit.getServer().getPluginManager().registerEvents(new DeathEvent(), this);
         Bukkit.getServer().getPluginManager().registerEvents(new MotdEvent(), this);
         Bukkit.getServer().getPluginManager().registerEvents(new PlayerDealDamageEvent(), this);

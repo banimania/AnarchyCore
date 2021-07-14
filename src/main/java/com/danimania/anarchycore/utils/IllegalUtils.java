@@ -1,43 +1,42 @@
 package com.danimania.anarchycore.utils;
 
+import io.papermc.paper.inventory.ItemRarity;
+import org.bukkit.Bukkit;
+import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.FireworkMeta;
 
 public class IllegalUtils {
 
-    public static void checkPlayerIllegals(Player p){
-        for(ItemStack i : p.getInventory().getContents()){
-            checkIllegals(i);
-        }
-    }
+    public static boolean isIllegal(ItemStack i){
 
-    public static void checkIllegals(ItemStack item){
-
-        if(item.getAmount()>item.getMaxStackSize()){
-            item.setAmount(item.getMaxStackSize());
-        }
-
-        for(Enchantment ench : item.getEnchantments().keySet()){
-            if(item.getEnchantmentLevel(ench)>ench.getMaxLevel()){
-                item.addEnchantment(ench, ench.getMaxLevel());
+        for(Enchantment ench : i.getEnchantments().keySet()){
+            if(ench.getMaxLevel() > i.getEnchantmentLevel(ench)){
+                return true;
             }
         }
 
-        switch(item.getType()){
-            case COMMAND:
-                item.setAmount(0);
-                break;
-            case MOB_SPAWNER:
-                item.setAmount(0);
-                break;
-            case BARRIER:
-                item.setAmount(0);
-                break;
-            case BEDROCK:
-                item.setAmount(0);
-                break;
+        if(i.getAmount() > i.getMaxStackSize()){
+            return true;
         }
+
+        if(i.getMaxItemUseDuration() < i.getDurability()){
+            return true;
+        }
+
+        if(i.getType().equals(Material.FIREWORK_ROCKET)){
+            if(i.getItemMeta() instanceof FireworkMeta){
+                FireworkMeta fireworkMeta = (FireworkMeta) i.getItemMeta();
+                if(fireworkMeta.getPower()>3 || fireworkMeta.getPower()<1){
+                    return true;
+                }
+            }
+        }
+
+        return false;
+
     }
 
 }

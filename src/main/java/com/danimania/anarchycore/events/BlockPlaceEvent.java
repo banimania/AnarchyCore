@@ -18,13 +18,6 @@ public class BlockPlaceEvent implements Listener {
                             e.getPlayer().getInventory().getItemInMainHand().setAmount(0);
                         }
                         break;
-                    case ENDER_PORTAL_FRAME:
-                        if(Utils.getConfig().getBoolean("antiblockplaces.blocks.endportalframes")){
-                            e.setCancelled(true);
-                            Utils.sendMessage(e.getPlayer(), "&cYou can't place end portal frames!");
-                            e.getPlayer().getInventory().getItemInMainHand().setAmount(0);
-                        }
-                        break;
                     case BARRIER:
                         if(Utils.getConfig().getBoolean("antiblockplaces.blocks.barriers")){
                             e.setCancelled(true);
@@ -32,12 +25,6 @@ public class BlockPlaceEvent implements Listener {
                             e.getPlayer().getInventory().getItemInMainHand().setAmount(0);
                         }
                         break;
-                    case MOB_SPAWNER:
-                        if(Utils.getConfig().getBoolean("antiblockplaces.blocks.spawners")){
-                            e.setCancelled(true);
-                            Utils.sendMessage(e.getPlayer(), "&cYou can't place mob spawners!");
-                            e.getPlayer().getInventory().getItemInMainHand().setAmount(0);
-                        }
                 }
             }
         }
