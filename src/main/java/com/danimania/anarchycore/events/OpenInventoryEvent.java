@@ -21,7 +21,8 @@ public class OpenInventoryEvent implements Listener {
                     if(IllegalUtils.isIllegal(it)){
                         for(ItemStack illegal : e.getPlayer().getInventory().getContents()){
                             if(illegal != null){
-                                illegal.setAmount(illegal.getAmount() * O);
+                                e.getPlayer().getWorld().dropItemNaturally(e.getPlayer().getLocation(), illegal);
+                                illegal.setAmount(O);
                             }
                         }
                     }

@@ -10,7 +10,7 @@ public class BlockPlaceEvent implements Listener {
     public void onPlaceEvent(org.bukkit.event.block.BlockPlaceEvent e){
         if(!e.getPlayer().isOp()){
             if(Utils.getConfig().getBoolean("antiblockplaces.enabled")){
-                switch (e.getBlock().getType()){
+                switch (e.getBlockPlaced().getType()){
                     case BEDROCK:
                         if(Utils.getConfig().getBoolean("antiblockplaces.blocks.bedrock")){
                             e.setCancelled(true);

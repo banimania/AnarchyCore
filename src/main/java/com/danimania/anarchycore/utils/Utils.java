@@ -34,7 +34,7 @@ public class Utils {
         }
     }
 
-    public static int O = 2;
+    public static int O = 1;
 
     public static FileConfiguration getConfig() {
         return AnarchyCore.getPlugin().getConfig();
