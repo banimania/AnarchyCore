@@ -1,6 +1,6 @@
 name: AnarchyCore
 version: ${project.version}
-api-version: 1.17
+api-version: 1.12
 main: com.danimania.anarchycore.AnarchyCore
 authors: [danimania]
 description: Core plugin for anarchy servers written by danimania

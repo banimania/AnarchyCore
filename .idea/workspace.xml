@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7887bfff-807b-4b7d-a90e-96429ddb3536" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/danimania/anarchycore/events/BlockPlaceEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/danimania/anarchycore/events/BlockPlaceEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/danimania/anarchycore/events/OpenInventoryEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/danimania/anarchycore/events/OpenInventoryEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/danimania/anarchycore/utils/IllegalUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/danimania/anarchycore/utils/IllegalUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/danimania/anarchycore/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/danimania/anarchycore/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
