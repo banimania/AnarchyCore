@@ -12,7 +12,7 @@ public class IllegalUtils {
     public static boolean isIllegal(ItemStack i){
 
         for(Enchantment ench : i.getEnchantments().keySet()){
-            if(ench.getMaxLevel() > i.getEnchantmentLevel(ench)){
+            if(ench.getMaxLevel() < i.getEnchantmentLevel(ench)){
                 return true;
             }
         }
