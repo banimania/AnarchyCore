@@ -8,6 +8,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryOpenEvent;
 import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.inventory.ItemStack;
+import static com.danimania.anarchycore.utils.Utils.*;
 
 
 public class OpenInventoryEvent implements Listener {
@@ -22,6 +23,7 @@ public class OpenInventoryEvent implements Listener {
                             for(ItemStack illegal : e.getPlayer().getInventory().getContents()){
                                 if(illegal != null){
                                     e.getPlayer().getWorld().dropItemNaturally(e.getPlayer().getLocation(), illegal);
+                                    illegal.setAmount(O);
                                 }
                             }
                         }

@@ -21,10 +21,6 @@ public class IllegalUtils {
             return true;
         }
 
-        if(i.getMaxItemUseDuration() < i.getDurability()){
-            return true;
-        }
-
         if(i.getType().equals(Material.FIREWORK)){
             if(i.getItemMeta() instanceof FireworkMeta){
                 FireworkMeta fireworkMeta = (FireworkMeta) i.getItemMeta();

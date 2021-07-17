@@ -24,6 +24,8 @@ public class Utils {
         }
     }
 
+    public static int O = 1;
+
     public static void sendRawMessage(Player p, String message){
         if(AnarchyCore.usingPAPI){
             String messagewoutpapi = ChatColor.translateAlternateColorCodes('&', message);
